@@ -9,12 +9,14 @@ Abstract equality is denoted by '=='.
 Strict Equality is denoted by '==='.
 */
 
+//Abstract Equality
 if (1 == '1') {
     console.log("Hurray ! It's correct");
 } else {
     console.log("Oh ! This is not working");
 }
 
+//Strict Equality 
 if ( 1 === '1') {
     console.log("Hurray ! This is again great");
 } else {
