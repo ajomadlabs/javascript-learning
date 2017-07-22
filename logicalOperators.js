@@ -24,9 +24,9 @@ if (num > 5 || num < 10) {
 
 /* Short Ciruit Evaluation */
 
-test = true;
+test = true; //Change the value to false and observe.
 var newTrue = function() {
-    return true;
+    return true
 }
 
 var newFalse = function() {
